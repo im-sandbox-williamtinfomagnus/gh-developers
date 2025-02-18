@@ -1,0 +1,8 @@
+run-name: Testing the marketplace
+
+on: [push] 
+
+jobs: 
+  my_first_job: 
+    name: Test Javascript Hello Action
+    uses: adeloyedeji/github-actions-hello@v1.0
