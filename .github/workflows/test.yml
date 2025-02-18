@@ -3,6 +3,8 @@ run-name: Testing the marketplace
 on: [push] 
 
 jobs: 
-  my_first_job: 
-    name: Test Javascript Hello Action
-    uses: adeloyedeji/github-actions-hello@v1.0
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Very Simple Hello World
+        uses: phwes/simple_hello_world@v1
