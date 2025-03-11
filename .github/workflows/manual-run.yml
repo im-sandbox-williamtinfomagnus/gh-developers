@@ -1,4 +1,4 @@
-name: Print Python Version
+name: Print Python Version (1)
 
 on:
   push:
